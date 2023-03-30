@@ -19,8 +19,13 @@ public class Monedas {
 
 	// Ingreso de la cantidad a convertir
 	public void setCantidad() {
-		this.cantidad = Double.parseDouble(JOptionPane.showInputDialog(null, "Introduce la cantidad a convertir: ", "Monedas", 
-				JOptionPane.PLAIN_MESSAGE));
+		try {
+			this.cantidad = Double.parseDouble(JOptionPane.showInputDialog(null, "Introduce la cantidad a convertir: ", "Monedas", 
+					JOptionPane.PLAIN_MESSAGE));
+		} catch (NumberFormatException nfe) {
+			JOptionPane.showMessageDialog(null, "El valor que introduciste no es válido", "Error", 1);
+			setCantidad();
+		}
 	}
 	
 	// Selecciona la divisa a convertir
