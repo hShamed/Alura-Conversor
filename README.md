@@ -11,6 +11,9 @@
 <p align="center">:coin:</p>
 
 <h2>Funcionalidades del proyecto</h2>
+<p align="center">
+<img src="./demo.gif" width=800>
+</p>
 <h4>:dollar: Convierte el Peso Mexicano a ...</h4>
 <ul>
   <li>Dólar</li>
