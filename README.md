@@ -1,13 +1,10 @@
 <h1 align="center">:coin: Conversor :coin:</h1>
 <p>
- <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+ <img src="https://img.shields.io/badge/STATUS-COMPLETADO-success">
 </p>
 <hr>
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
 <p>
-  Conversor de divisas :dollar: y de temperatura :thermometer:, utilizando el lenguaje Java :coffee:.
+  Conversor de divisas :dollar:, temperatura :thermometer: y almacenamiento :robot:; utilizando el lenguaje Java :coffee:.
 </p>
 
 <br> 
@@ -34,15 +31,25 @@
 <sub>
   Y todos los anteriores grados también las convierte devuelta a °C.
 </sub>
+<h4>:robot: Convierte la unidad Byte a ...</h4>
+<ul>
+  <li>Kilobyte</li>
+  <li>Megabyte</li>
+  <li>Gigabyte</li>
+  <li>Terabyte</li>
+</ul>
+<sub>
+  Y todas las anteriores unidades de almacenamiento también las convierte devuelta al Byte.
+</sub>
 
+<br>
 <br>
 <p align="center">:coin:</p>
 
 <h2>Tecnologías</h2>
 <ul>
-  <li>Java 8 :coffee:</li>
+  <li>Java 1.8 :coffee:</li>
 </ul>
-
 
 <br>
 <p align="center">:coin:</p>
